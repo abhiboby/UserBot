@@ -60,7 +60,7 @@ LOGGER = sb(os.environ.get(
     "LOGGER", "False"
 ))  # Incase you want to turn off logging, put this to false
 
-PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
+PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "True"))
 
 CONSOLE_LOGGER_VERBOSE = sb(
     os.environ.get("CONSOLE_LOGGER_VERBOSE", "False")
